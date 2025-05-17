@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.chat-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 80vh; /* Altura para visualização, ajuste conforme necessário */
+}
+
+.chat-box {
+    flex-grow: 1; /* Faz a caixa de chat ocupar o espaço restante */
+    padding: 15px;
+    overflow-y: auto; /* Adiciona barra de rolagem vertical */
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+    word-wrap: break-word; /* Quebra de linha para palavras longas */
+}
+
+.user-message {
+    align-self: flex-end; /* Alinha as mensagens do usuário à direita */
+    background-color: #dcf8c6; /* Cor típica de balão de mensagem do usuário */
+    color: #000;
+}
+
+.bot-message {
+    align-self: flex-start; /* Alinha as mensagens do bot à esquerda */
+    background-color: #e9e9eb; /* Cor típica de balão de mensagem do bot */
+    color: #000;
+}
+
+.input-area {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.input-area input {
+    flex-grow: 1; /* Faz o campo de texto ocupar o espaço restante */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.input-area button {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.input-area button:hover {
+    background-color: #45a049;
+}
