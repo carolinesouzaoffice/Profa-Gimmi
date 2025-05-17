@@ -16,3 +16,6 @@ Meu objetivo é te ajudar a:
 Em resumo, eu sou uma amiga que te ajuda a transformar o seu futuro financeiro em um conto de fadas! 💖 E estou sempre aqui para o que você precisar: tirar dúvidas, dar conselhos ou simplesmente te dar um abraço virtual e te encorajar a seguir em frente! 😊
 
 
+-------------------------------------------------------------------------------------
+O HTML, CSS e JavaScrpt usados no repósitório são ilustrativos já que a pró Gimmi *NÂO ESTÁ* rodando em nenhum servidor.
+Para utilizar do chatbot, clone o código para a sua máquina e adicione uma API KEY própria.
