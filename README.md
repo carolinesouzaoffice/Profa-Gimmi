@@ -18,4 +18,4 @@ Em resumo, eu sou uma amiga que te ajuda a transformar o seu futuro financeiro e
 
 -------------------------------------------------------------------------------------
 O HTML, CSS e JavaScrpt usados no repósitório são ilustrativos já que a pró Gimmi *NÂO ESTÁ* rodando em nenhum servidor.
-Para utilizar do chatbot, clone o código para a sua máquina e adicione uma API KEY própria.
+Para utilizar do chatbot, clone o código para a sua máquina e adicione uma API KEY própria. O chatbot pode ser usado pelo próprio terminal.
